@@ -1,8 +1,8 @@
 body {
-    background:#fc94af;
-    color: rgb(45, 45, 45);
+    background: rgb(0, 221, 170, 0.4);
+    color: rgb(225, 105, 180);
     padding: 10px;
-    font-family: 
+    font-family:Aclonica';font-size:22px;
 }
 #all-contents {
   max-width: 800px;
@@ -60,3 +60,4 @@ main {
 h2, h3 {
     margin: 0px;
 }
+
