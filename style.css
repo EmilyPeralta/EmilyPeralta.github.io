@@ -2,7 +2,7 @@ body {
     background: rgb(0, 221, 170, 0.4);
     color: rgb(225, 105, 180);
     padding: 10px;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:'Calligraffitti';
     }#all-contents{
      max-width: 800px;
        margin: auto;
@@ -12,8 +12,10 @@ body {
 nav {
     background:#ffafcc;
    margin: 0 auto;
+   margin-bottom: 20px;
     display: flex;
     padding: 10px;
+    border-radius: 15px 50px 30px;
 }
 h1 {
     display: flex;
