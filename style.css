@@ -2,7 +2,7 @@ body {
     background: rgb(0, 221, 170, 0.4);
     color: rgb(225, 105, 180);
     padding: 10px;
-    font-family:'Calligraffitti';
+    font-family:Calligraffitti;
     }#all-contents{
      max-width: 800px;
        margin: auto;
@@ -79,7 +79,7 @@ h2, h3 {
         }
 
         #portfolio li:hover {
-            background: #eee;
+            background:#eee ;
         }
 
         #portfolio a {
