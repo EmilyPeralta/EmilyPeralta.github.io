@@ -2,11 +2,27 @@ body {
     background: rgb(0, 221, 170, 0.4);
     color: rgb(225, 105, 180);
     padding: 10px;
-    font-family:Calligraffitti;
+    font-family:"Brush Script MT",Brush,cursive;
     }#all-contents{
      max-width: 800px;
        margin: auto;
     }
+    h1{
+        color: rgb(240, 34, 161);
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        }
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+      }
+      
 
 /* navigation menu */
 nav {
@@ -63,7 +79,7 @@ h2, h3 {
 }
          /* portfolio styles */
          .content h1 {
-            color: black;
+            color: rgb(225, 105, 180);
         }
 
         #portfolio {
@@ -72,14 +88,14 @@ h2, h3 {
         }
 
         #portfolio li {
-            background: #fff;
+            background:rgb(0, 221, 170, 0.4);;
             padding: 10px;
             border-radius: 10px;
             margin-bottom: 10px;
         }
 
         #portfolio li:hover {
-            background:#eee ;
+            background:rgb(225, 105, 180)
         }
 
         #portfolio a {
