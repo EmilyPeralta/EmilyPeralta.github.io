@@ -3,9 +3,9 @@ body {
 }
 
 canvas {
-  background;
+  background-color: lightgrey;
 }
 
 img {
-  display:;
+  display: none;
 }
