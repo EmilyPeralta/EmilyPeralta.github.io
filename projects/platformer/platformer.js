@@ -53,6 +53,7 @@ $(function () {
    createPlatform(900,500,225,25);
    createPlatform(800,380,225,25);
    createPlatform(1155,380,25,25);
+   createPlatform(1000,480,30,25);
   
 
     // TODO 2
@@ -62,7 +63,7 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
     createCollectable("max", 600, 300);
     createCollectable("kennedi",700,300);
-    
+   
      
      
 
@@ -76,7 +77,7 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
     createCannon("left", 600, 1000); // cannon on left wall, 400px top shooting once per second
     createCannon("right", 600, 1000); // cannon on right wall, 500px top shooting once per second
-
+    
 
 
 
