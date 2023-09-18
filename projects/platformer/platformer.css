@@ -3,8 +3,7 @@ body {
 }
 
 canvas {
-  background-color: lightgrey;
-}
+  background-color: rgba(51, 245, 245, 0.936);
 
 img {
   display: none;
