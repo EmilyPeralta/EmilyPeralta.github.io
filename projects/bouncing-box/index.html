@@ -73,9 +73,10 @@
 			turn it around! 
 			*/
 			function update() {
-				positionX = positionX + 10;
+				positionX = positionX + speed;
             moveBoxTo(positionX)
 			};
+		
 			
 
 			/* 
@@ -85,9 +86,10 @@
 			*/
 			function handleBoxClick() {
 				positionX=0;
-				changeBoxText(1);
+				points = points + 1;
 				changeBoxText(points);
-
+				speed += 3;
+				
 
 			};
 		})();
