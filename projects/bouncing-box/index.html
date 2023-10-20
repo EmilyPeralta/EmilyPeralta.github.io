@@ -8,7 +8,7 @@
 		.box {
 			width: 70px;
 			height: 70px;
-			background-color: teal;
+			background-color:#FF007F;
 			font-size: 300%;
 			text-align: center;
 			user-select: none;
@@ -91,7 +91,14 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-				if(speed>)
+				points= points + 1
+				changeBoxText(points);
+				if(speed > 0){
+					speed = speed + 3	
+				}
+				if(speed < 0){
+					speed = speed - 3
+				}
 
 			};
 		})();
