@@ -20,6 +20,9 @@
 		.board{
 			height: 100vh;
 		}
+		.background{
+			background-image: url("https://tinyurl.com/jdwpvw87");
+		}
 	</style>
 	<!-- 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
 
@@ -76,14 +79,13 @@
 			function update() {
 				positionX = positionX + speed;
             moveBoxTo(positionX)
-			};
 		if(positionX >= boardWidth){
 			speed = -speed
 		}
-		else if(positionX < 0){
+		if(positionX < 0){
 			speed = -speed
 			}
-		
+		};
 			
 
 			/* 
