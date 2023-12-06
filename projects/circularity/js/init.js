@@ -54,7 +54,7 @@ var init = function (window) {
   physikz.updatePosition(circles[2]);
   physikz.updatePosition(circles[3]);
   physikz.updatePosition(circles[4]);
-}
+
     
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
             game.checkCirclePosition(circles[0]);
@@ -62,11 +62,11 @@ var init = function (window) {
             game.checkCirclePosition(circles[2]);
             game.checkCirclePosition(circles[3]);
             game.checkCirclePosition(circles[4]);
-
+        }
             // TODO 9 : Iterate over the array
            
             
-        }
+        
     
         /* 
         This Function should check the position of a circle that is passed to the 
@@ -81,7 +81,9 @@ var init = function (window) {
             }
             
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
-            
+            if ( circle.x < 0 ) {
+                circle.x = canvas.width;
+            }
 
 
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
